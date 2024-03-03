@@ -1,6 +1,6 @@
 <template>
     <Header />
-    <div class="project__top-item center">
+    <div class="project__top-item ">
         <div class="project__top-title  ">
             <h2 class="project__top-name">Our Project</h2>
             <div class="project__top-link">

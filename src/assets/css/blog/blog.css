@@ -1,19 +1,20 @@
 
-.blog__top-item, .project__top-item{
+.blog__top-item {
     height: 356px;
     position: relative;
 }
 
 .blog__top-title {
-    position: absolute; 
+    position: absolute;
     top: 178px;
-    left: 786px;
+    left: 848px;
     display: flex;
     flex-direction: column;
-    width: 254px; 
     align-items: center;
-    gap: 10px;
     border-radius: 37px 37px 0px 0px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    ;
+    padding: 41px 125px;
     background: #FFF;
 }
 
@@ -23,9 +24,8 @@
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
-    line-height: 125%; 
+    line-height: 125%;
     text-align: center;
-    padding: 41px 78px;
 }
 
 

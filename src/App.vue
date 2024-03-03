@@ -1,27 +1,27 @@
 <template>
   <!-- <Home />  -->
-  <Blog /> 
+  <!-- <Blog />  -->
   <!-- <BlogDetails /> -->
-  <Project/>
-  <!-- <ProjectDetails /> -->
+  <!-- <Project/> -->
+  <ProjectDetails />
 
 </template>
 
 <script>
 
 // import Home from './components/Home.vue'
-import Blog from './components/Blog.vue'
+// import Blog from './components/Blog.vue'
 // import BlogDetails from './components/BlogDetails.vue';
-import Project from './components/Project.vue'
-// import ProjectDetails from './components/ProjectDetails.vue'
+// import Project from './components/Project.vue'
+import ProjectDetails from './components/ProjectDetails.vue'
 
 export default {
   name: 'App',
   components: {
-    Blog,
+    // Blog,
     // BlogDetails,
-    Project,
-    // ProjectDetails,
+    // Project,
+    ProjectDetails,
 
 }
 }
