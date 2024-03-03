@@ -1,0 +1,33 @@
+
+@import '../css/header/header.css';
+@import '../css/home/home.css';
+@import '../css/blog/blog.css';
+@import '../css/footer/footer.css';
+@import '../css/blog-details/blog-details.css';
+@import '../css/project/project.css';
+@import '../css/project-details/projectDetails.css';
+
+
+
+@font-face {
+    font-family: Jost;
+    src: url(../fonts/Jost/Jost.ttf);
+
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url(../fonts/DMSerifDisplay/DMSerifDisplay-Regular.ttf);
+} 
+
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+

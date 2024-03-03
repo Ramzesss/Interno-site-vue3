@@ -1,0 +1,40 @@
+.project__details-top-image > img{
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.project__details-body-info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.project__details-body-subtitle {
+    display: flex;
+    flex-direction: column;
+    width: 658px;
+    gap: 20px;
+}
+
+.project__details-body-title {
+    color: rgb(41, 47, 54);
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 2%;
+    width: 330px; 
+    padding-bottom: 11px;
+    text-align: left;
+}
+
+.project__details-body-text {
+    color: rgb(77, 80, 83);
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1%;
+}

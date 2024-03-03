@@ -1,26 +1,45 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <Home />  -->
+  <Blog /> 
+  <!-- <BlogDetails /> -->
+  <Project/>
+  <!-- <ProjectDetails /> -->
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+// import Home from './components/Home.vue'
+import Blog from './components/Blog.vue'
+// import BlogDetails from './components/BlogDetails.vue';
+import Project from './components/Project.vue'
+// import ProjectDetails from './components/ProjectDetails.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    Blog,
+    // BlogDetails,
+    Project,
+    // ProjectDetails,
+
+}
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.top__info-item {
+  background-image: url('../src/assets/img/top-background.png');
 }
+
+
+.blog__top-item {
+  background-image: url('../src/assets/img/blog-top.jpg');
+}
+
+.project__top-item {
+  background-image: url('../src/assets/img/project-top.png');
+}
+
+
 </style>

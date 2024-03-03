@@ -1,0 +1,44 @@
+
+
+
+.nav__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 53px;
+    margin-bottom: 53px;
+}
+
+
+.nav__icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.nav__name {
+    color: #292F36;
+    font-family: 'DM Serif Display';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.nav__link {
+    display: flex;
+    gap: 50px;
+}
+
+.nav__link-btn {
+    color: #292F36;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 25px */
+    text-decoration: none;
+}

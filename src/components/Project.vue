@@ -1,0 +1,325 @@
+<template>
+    <Header />
+    <div class="project__top-item center">
+        <div class="project__top-title  ">
+            <h2 class="project__top-name">Our Project</h2>
+            <div class="project__top-link">
+                <a class="project__top-btn" href="index.html">Home</a>
+                <p class="project__top-slash">/</p>
+                <a class="project__top-btn" href="blog.html">Project</a>
+            </div>
+        </div>
+    </div>
+    <div class="project__body-elem center">
+        <div class="project__body-btn">
+            <button @click="clickOnTag(tag)" class="project__body-button" v-for="tag in tags"
+                :key="tag.id">{{
+                    tag }}</button>
+        </div>
+        <div class="project__body-col">
+            <div  v-for="detail in filteredDetails" :key="detail.id" class="project__body-items">
+                <img class="project__body-img" :src="detail.img" alt="">
+                <div class="project__body-info">
+                    <div class="project__body-title">
+                        <h3 class="project__body-name">{{ detail.title }}</h3>
+                        <p class="project__body-text">{{ detail.text }}</p>
+                    </div>
+                    <div class="project__body-link">
+                        <a href="#">
+                            <svg width="70.000000" height="70.000000" viewBox="0 0 70 70" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <desc>
+                                    Created with Pixso.
+                                </desc>
+                                <defs />
+                                <circle id="Ellipse" cx="35.000000" cy="35.000000" r="35.000000" fill="#F4F0EC"
+                                    fill-opacity="1.000000" />
+                                <path id="Vector" d="M32 44L40 35L32 26" stroke="#292F36" stroke-opacity="1.000000"
+                                    stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round" />
+                            </svg>
+
+                        </a>
+                    </div>
+                </div>
+                <a  class="project__body-star">
+                    <svg width="36px" height="36px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)matrix(1, 0, 0, 1, 0, 0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> <path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" stroke="#ffa928" stroke-width="1.392" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </a>
+            </div>
+        </div>
+        <div class="project__pagination">
+            <div v-for="pagination in paginations" :key="pagination.id" class="project__pagination-num"> {{ pagination }}</div>
+        </div>
+    </div>
+
+    <Footer />
+</template>
+
+<script>
+import Header from '@/components/Header.vue';
+import Footer from '@/components/Footer.vue';
+export default {
+    components: {
+        Header,
+        Footer
+
+    },
+
+    data() {
+        return {
+            paginations: [1, 2, 3, '>'],
+            tags: ['Bathroom', 'Bed room', 'Kitchan', 'Living Area'],
+            selectedDetails: [],
+            details: [
+                {
+                    name: ["Bed room"],
+                    img: require('../assets/img/project-1.png'),
+                    title: 'Minimal Bedroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bed room"],
+                    img: require('../assets/img/project-2.png'),
+                    title: 'Classic Minimal Bedroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bed room"],
+                    img: require('../assets/img/project-3.png'),
+                    title: 'Minimal Bedroom table',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bed room"],
+                    img: require('../assets/img/project-4.png'),
+                    title: 'Modern Bedroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bed room"],
+                    img: require('../assets/img/project-5.png'),
+                    title: 'Minimal Bedroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bed room"],
+                    img: require('../assets/img/project-6.png'),
+                    title: 'Modern Bedroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bed room"],
+                    img: require('../assets/img/project-7.png'),
+                    title: 'System Table',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bed room"],
+                    img: require('../assets/img/project-8.png'),
+                    title: 'Modern Bedroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bathroom"],
+                    img: require('../assets/img/projectBath-1.jpg'),
+                    title: 'Minimal Bathroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bathroom"],
+                    img: require('../assets/img/projectBath-2.jpg'),
+                    title: 'Classic Minimal Bathroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bathroom"],
+                    img: require('../assets/img/projectBath-3.jpg'),
+                    title: 'Minimal Bathroom table',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bathroom"],
+                    img: require('../assets/img/projectBath-4.jpg'),
+                    title: 'Modern Bathroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bathroom"],
+                    img: require('../assets/img/projectBath-5.jpg'),
+                    title: 'Minimal Bathroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bathroom"],
+                    img: require('../assets/img/projectBath-6.jpg'),
+                    title: 'Modern Bathroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bathroom"],
+                    img: require('../assets/img/projectBath-7.jpg'),
+                    title: 'System Table',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Bathroom"],
+                    img: require('../assets/img/projectBath-8.jpg'),
+                    title: 'Modern Bathroom',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Kitchan"],
+                    img: require('../assets/img/projectKith-1.jpg'),
+                    title: 'Minimal Kitchan',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Kitchan"],
+                    img: require('../assets/img/projectKith-2.jpg'),
+                    title: 'Classic Minimal Kitchan',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Kitchan"],
+                    img: require('../assets/img/projectKith-3.jpg'),
+                    title: 'Minimal Kitchan table',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Kitchan"],
+                    img: require('../assets/img/projectKith-4.jpg'),
+                    title: 'Modern Kitchan',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Kitchan"],
+                    img: require('../assets/img/projectKith-5.jpg'),
+                    title: 'Minimal Kitchan',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Kitchan"],
+                    img: require('../assets/img/projectKith-6.jpg'),
+                    title: 'Modern Kitchan',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Kitchan"],
+                    img: require('../assets/img/projectKith-7.jpg'),
+                    title: 'System Table',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Kitchan"],
+                    img: require('../assets/img/projectKith-8.jpg'),
+                    title: 'Modern Kitchan',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Living Area"],
+                    img: require('../assets/img/projectLiv-1.jpg'),
+                    title: 'Minimal Living Area',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Living Area"],
+                    img: require('../assets/img/projectLiv-2.jpg'),
+                    title: 'Classic Minimal Living Area',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Living Area"],
+                    img: require('../assets/img/projectLiv-3.jpg'),
+                    title: 'Minimal Living Area table',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Living Area"],
+                    img: require('../assets/img/projectLiv-4.jpg'),
+                    title: 'Modern Living Area',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Living Area"],
+                    img: require('../assets/img/projectLiv-5.jpg'),
+                    title: 'Minimal Living Area',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Living Area"],
+                    img: require('../assets/img/projectLiv-6.jpg'),
+                    title: 'Modern Living Area',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Living Area"],
+                    img: require('../assets/img/projectLiv-7.jpg'),
+                    title: 'System Table',
+                    text: 'Decor / Artchitecture',
+
+                },
+                {
+                    name: ["Living Area"],
+                    img: require('../assets/img/projectLiv-8.jpg'),
+                    title: 'Modern Living Area',
+                    text: 'Decor / Artchitecture',
+
+                },
+            ],
+        }
+    },
+
+
+    mounted() {
+        this.selectedDetails = this.details;
+    },
+
+    methods: {
+        clickOnTag(name) {
+            const result = this.details.filter((tag) => tag.name.includes(name));
+            this.selectedDetails = result;
+        },
+
+
+    },
+
+    computed: {
+        filteredDetails() {
+            return this.selectedDetails.slice(0, 8);
+        },
+    },
+
+
+};
+</script>
+
+<style lang="scss" scoped></style>

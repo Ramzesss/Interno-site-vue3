@@ -1,0 +1,169 @@
+
+.blog__top-item, .project__top-item{
+    height: 356px;
+    position: relative;
+}
+
+.blog__top-title {
+    position: absolute; 
+    top: 178px;
+    left: 786px;
+    display: flex;
+    flex-direction: column;
+    width: 254px; 
+    align-items: center;
+    gap: 10px;
+    border-radius: 37px 37px 0px 0px;
+    background: #FFF;
+}
+
+.blog__top-name {
+    color: #292F36;
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; 
+    text-align: center;
+    padding: 41px 78px;
+}
+
+
+
+.blog__top-link {
+    display: flex;
+    gap: 5px;
+}
+
+.blog__top-btn, .blog__top-slash {
+    text-decoration: none;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;  
+}
+
+.blog__body {
+    margin-top: 200px;
+    margin-bottom: 172px;
+}
+
+.blog__body-name {
+    color: #292F36;
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.blog__body-item {
+    display: flex;
+    gap: 65px;
+    justify-content: space-around;
+    padding-top: 49px;
+}
+
+.blog__body-item img:first-child {
+    border-radius: 50px;
+    background: #C4C4C4;
+    width: 569px;
+}
+
+.blog__body-columns {
+    padding-top: 50px;
+}
+
+.blog__body-title {
+    color: #292F36;
+    font-family: 'DM Serif Display';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    width: 463px;
+    
+}
+
+.blog__body-subtitle {
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: 0.22px;
+    width: 469px;
+    padding-top: 22px;
+    
+}
+
+.blog__body-date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.blog__body-date p:first-child {
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+} 
+
+.cart__items {
+    margin-bottom: 200px;
+}
+
+.cart__name {
+    color: #292F36;
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 62.5px */
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+
+.cart__items-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 382px);
+    gap: 28px;
+}
+
+.cart__slide {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 51px;
+}
+
+.img__box {
+    position: relative;
+}
+
+.designe__info {
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+    color: #4D5053;
+    font-family: Jost;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+    border-radius: 8px 8px 8px 0px;
+    background: #FFF;
+    padding: 8px 10px;
+}
