@@ -140,16 +140,14 @@
     padding-bottom: 24px;
 }
 
-.tags__btn {
+.tags__button {
     display: flex;
-    width: 335px;
     flex-direction: column;
-    flex-wrap: wrap;
-    gap: 10px;
 }
 
 .btn__position  {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 

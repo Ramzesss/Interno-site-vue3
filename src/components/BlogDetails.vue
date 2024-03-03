@@ -66,7 +66,10 @@
                     <button @click="clickOnTag('BedroomTwo')" class="tags__link">Bedroom</button>
                 </div>
             </div> -->
-            <button @click="clickOnTag(tag)" v-for="tag in tags" :key="tag.id"> {{ tag }} </button>
+            <div class="btn__position">
+<button class="tags__link" @click="clickOnTag(tag)" v-for="tag in tags" :key="tag.id"> {{ tag }} </button>
+            </div>
+            
         </div>
     </div>
 
