@@ -2,15 +2,17 @@
     position: relative;
     height: 356px;
     margin-bottom: 200px;
+    background-image: url('../../img/project-top.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .project__top-title {
     position: absolute;
     top: 178px;
-    left: 848px;
+    left: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;

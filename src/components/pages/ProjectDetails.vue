@@ -2,7 +2,7 @@
 <Header />
 
 <div class="project__details-top-image">
-    <img src="../assets/img/projectDetails-top.png" alt="">
+    <img src="../../assets/img/projectDetails-top.png" alt="">
 </div>
 <div class="project__details-body center">
 <div class="project__details-body-info">
@@ -18,7 +18,7 @@
 </div>
 </div>
 
-
+<Swiper />
 
 
 <Footer />
@@ -33,19 +33,17 @@
 
 
 
-
-
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
+import Swiper from '@/components/Swiper.vue';
 
     export default {
 
         components: {
         Header,
         Footer,
-
+        Swiper,
     },
-
         
     }
 </script>

@@ -9,15 +9,16 @@
 
 <script>
 
-// import Home from './components/Home.vue'
-// import Blog from './components/Blog.vue'
-// import BlogDetails from './components/BlogDetails.vue';
-// import Project from './components/Project.vue'
-import ProjectDetails from './components/ProjectDetails.vue'
+// import Home from './components/pages/Home.vue'
+// import Blog from './components/pages/Blog.vue'
+// import BlogDetails from './components/pages/BlogDetails.vue';
+// import Project from './components/pages/Project.vue'
+import ProjectDetails from './components/pages/ProjectDetails.vue'
 
 export default {
   name: 'App',
   components: {
+    // Home,
     // Blog,
     // BlogDetails,
     // Project,
@@ -27,19 +28,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.top__info-item {
-  background-image: url('../src/assets/img/top-background.png');
-}
-
-
-.blog__top-item {
-  background-image: url('../src/assets/img/blog-top.jpg');
-}
-
-.project__top-item {
-  background-image: url('../src/assets/img/project-top.png');
-}
-
-
-</style>
+<style lang="scss"></style>

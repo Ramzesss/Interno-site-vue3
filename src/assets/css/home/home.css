@@ -5,7 +5,7 @@
 }
 
 .top__info-item {
-    
+    background-image: url('../../img/top-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 50px;

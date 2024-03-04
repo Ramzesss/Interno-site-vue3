@@ -16,7 +16,7 @@
     <div class="blog__body center">
         <h2 class="blog__body-name">Latest Post</h2>
         <div class="blog__body-item">
-            <img src="../assets/img/blog-body.png" alt="">
+            <img src="../../assets/img/blog-body.png" alt="">
             <div class="blog__body-columns">
                 <h3 class="blog__body-title">Low Cost Latest Invented Interior Designing Ideas</h3>
                 <p class="blog__body-subtitle">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpis
@@ -93,7 +93,7 @@ export default {
                     paginations: [1, 2, 3, '>'],
                     newObj: [
                         {
-                            img: require('../assets/img/bot-1.png'),
+                            img: require('../../assets/img/bot-1.png'),
                             nameOne: 'Let’s Get Solution For',
                             nameTwo: 'Building Construction',
                             nameThree: 'Work',
@@ -101,7 +101,7 @@ export default {
                             design: 'Kitchan Design',
                         },
                         {
-                            img: require('../assets/img/bot-2.png'),
+                            img: require('../../assets/img/bot-2.png'),
                             nameOne: 'Low Cost Latest Invented ',
                             nameTwo: 'Interior Designing',
                             nameThree: 'Ideas.',
@@ -109,7 +109,7 @@ export default {
                             design: 'Living Design',
                         },
                         {
-                            img: require('../assets/img/bot-3.png'),
+                            img: require('../../assets/img/bot-3.png'),
                             nameOne: 'Best For Any Office &',
                             nameTwo: 'Business Interior',
                             nameThree: 'Solution',
@@ -117,7 +117,7 @@ export default {
                             design: 'Interior Design',
                         },
                         {
-                            img: require('../assets/img/bot-4.png'),
+                            img: require('../../assets/img/bot-4.png'),
                             nameOne: 'Let’s Get Solution For',
                             nameTwo: 'Building Construction',
                             nameThree: 'Work',
@@ -125,7 +125,7 @@ export default {
                             design: 'Kitchan Design',
                         },
                         {
-                            img: require('../assets/img/bot-5.png'),
+                            img: require('../../assets/img/bot-5.png'),
                             nameOne: 'Low Cost Latest Invented ',
                             nameTwo: 'Interior Designing',
                             nameThree: 'Ideas.',
@@ -133,7 +133,7 @@ export default {
                             design: 'Living Design',
                         },
                         {
-                            img: require('../assets/img/bot-6.png'),
+                            img: require('../../assets/img/bot-6.png'),
                             nameOne: 'Best For Any Office &',
                             nameTwo: 'Business Interior',
                             nameThree: 'Solution',

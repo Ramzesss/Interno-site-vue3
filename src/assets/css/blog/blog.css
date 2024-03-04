@@ -2,12 +2,15 @@
 .blog__top-item {
     height: 356px;
     position: relative;
+    background-image: url('../../img/blog-top.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .blog__top-title {
     position: absolute;
     top: 178px;
-    left: 848px;
+    left: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;

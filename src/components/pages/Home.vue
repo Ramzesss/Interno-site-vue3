@@ -22,7 +22,7 @@
                 content of page lookings at its layouts points.</p>
             <div class="center__columns">
                 <div class="columns__items">
-                    <img src="../assets/img/col-1.png" alt="">
+                    <img src="../../assets/img/col-1.png" alt="">
                     <div class="columns__info">
                         <div class="columns__desc">
                             <h3 class="columns__name">Modern Kitchan</h3>
@@ -38,25 +38,7 @@
                     </div>
                 </div>
                 <div class="columns__items">
-                    <img src="../assets/img/col-2.png" alt="">
-                    <div class="columns__info">
-                        <div class="columns__desc">
-                            <h3 class="columns__name">Modern Kitchan</h3>
-                            <p class="columns__text">Decor / Artchitecture</p>
-                        </div>
-                        <a class="columns__link" href="#">
-                            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
-                                <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
-                        </a>
-                    </div>
-
-
-                </div>
-                <div class="columns__items">
-                    <img src="../assets/img/col-3.png" alt="">
+                    <img src="../../assets/img/col-2.png" alt="">
                     <div class="columns__info">
                         <div class="columns__desc">
                             <h3 class="columns__name">Modern Kitchan</h3>
@@ -74,7 +56,25 @@
 
                 </div>
                 <div class="columns__items">
-                    <img src="../assets/img/col-4.png" alt="">
+                    <img src="../../assets/img/col-3.png" alt="">
+                    <div class="columns__info">
+                        <div class="columns__desc">
+                            <h3 class="columns__name">Modern Kitchan</h3>
+                            <p class="columns__text">Decor / Artchitecture</p>
+                        </div>
+                        <a class="columns__link" href="#">
+                            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+                                <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="columns__items">
+                    <img src="../../assets/img/col-4.png" alt="">
                     <div class="columns__info">
                         <div class="columns__desc">
                             <h3 class="columns__name">Modern Kitchan</h3>
@@ -132,7 +132,7 @@
             <div class="bottom__columns">
                 <div class="bottom__col">
                     <div class="img__box">
-                        <img class="bottom__col-img" src="../assets/img/bot-1.png" alt="">
+                        <img class="bottom__col-img" src="../../assets/img/bot-1.png" alt="">
                         <p class="designe__info">Kitchan Design</p>
                     </div>
                     <div class="bottom__col-name">
@@ -153,7 +153,7 @@
                 </div>
                 <div class="bottom__col">
                     <div class="img__box">
-                        <img class="bottom__col-img" src="../assets/img/bot-2.png" alt="">
+                        <img class="bottom__col-img" src="../../assets/img/bot-2.png" alt="">
                         <p class="designe__info">Living Design</p>
                     </div>
                     <div class="bottom__col-name">
@@ -174,7 +174,7 @@
                 </div>
                 <div class="bottom__col">
                     <div class="img__box">
-                        <img class="bottom__col-img" src="../assets/img/bot-3.png" alt="">
+                        <img class="bottom__col-img" src="../../assets/img/bot-3.png" alt="">
                         <p class="designe__info">Interior Design</p>
                     </div>
                     <div class="bottom__col-name">
