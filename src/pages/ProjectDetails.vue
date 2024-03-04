@@ -2,7 +2,7 @@
 <Header />
 
 <div class="project__details-top-image">
-    <img src="../../assets/img/projectDetails-top.png" alt="">
+    <img src="../assets/img/projectDetails-top.png" alt="">
 </div>
 <div class="project__details-body center">
 <div class="project__details-body-info">

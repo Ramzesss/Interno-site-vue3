@@ -72,224 +72,224 @@ export default {
             details: [
                 {
                     name: ["Bed room"],
-                    img: require('../../assets/img/project-1.png'),
+                    img: require('../assets/img/project-1.png'),
                     title: 'Minimal Bedroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bed room"],
-                    img: require('../../assets/img/project-2.png'),
+                    img: require('../assets/img/project-2.png'),
                     title: 'Classic Minimal Bedroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bed room"],
-                    img: require('../../assets/img/project-3.png'),
+                    img: require('../assets/img/project-3.png'),
                     title: 'Minimal Bedroom table',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bed room"],
-                    img: require('../../assets/img/project-4.png'),
+                    img: require('../assets/img/project-4.png'),
                     title: 'Modern Bedroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bed room"],
-                    img: require('../../assets/img/project-5.png'),
+                    img: require('../assets/img/project-5.png'),
                     title: 'Minimal Bedroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bed room"],
-                    img: require('../../assets/img/project-6.png'),
+                    img: require('../assets/img/project-6.png'),
                     title: 'Modern Bedroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bed room"],
-                    img: require('../../assets/img/project-7.png'),
+                    img: require('../assets/img/project-7.png'),
                     title: 'System Table',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bed room"],
-                    img: require('../../assets/img/project-8.png'),
+                    img: require('../assets/img/project-8.png'),
                     title: 'Modern Bedroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bathroom"],
-                    img: require('../../assets/img/projectBath-1.jpg'),
+                    img: require('../assets/img/projectBath-1.jpg'),
                     title: 'Minimal Bathroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bathroom"],
-                    img: require('../../assets/img/projectBath-2.jpg'),
+                    img: require('../assets/img/projectBath-2.jpg'),
                     title: 'Classic Minimal Bathroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bathroom"],
-                    img: require('../../assets/img/projectBath-3.jpg'),
+                    img: require('../assets/img/projectBath-3.jpg'),
                     title: 'Minimal Bathroom table',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bathroom"],
-                    img: require('../../assets/img/projectBath-4.jpg'),
+                    img: require('../assets/img/projectBath-4.jpg'),
                     title: 'Modern Bathroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bathroom"],
-                    img: require('../../assets/img/projectBath-5.jpg'),
+                    img: require('../assets/img/projectBath-5.jpg'),
                     title: 'Minimal Bathroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bathroom"],
-                    img: require('../../assets/img/projectBath-6.jpg'),
+                    img: require('../assets/img/projectBath-6.jpg'),
                     title: 'Modern Bathroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bathroom"],
-                    img: require('../../assets/img/projectBath-7.jpg'),
+                    img: require('../assets/img/projectBath-7.jpg'),
                     title: 'System Table',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Bathroom"],
-                    img: require('../../assets/img/projectBath-8.jpg'),
+                    img: require('../assets/img/projectBath-8.jpg'),
                     title: 'Modern Bathroom',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Kitchan"],
-                    img: require('../../assets/img/projectKith-1.jpg'),
+                    img: require('../assets/img/projectKith-1.jpg'),
                     title: 'Minimal Kitchan',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Kitchan"],
-                    img: require('../../assets/img/projectKith-2.jpg'),
+                    img: require('../assets/img/projectKith-2.jpg'),
                     title: 'Classic Minimal Kitchan',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Kitchan"],
-                    img: require('../../assets/img/projectKith-3.jpg'),
+                    img: require('../assets/img/projectKith-3.jpg'),
                     title: 'Minimal Kitchan table',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Kitchan"],
-                    img: require('../../assets/img/projectKith-4.jpg'),
+                    img: require('../assets/img/projectKith-4.jpg'),
                     title: 'Modern Kitchan',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Kitchan"],
-                    img: require('../../assets/img/projectKith-5.jpg'),
+                    img: require('../assets/img/projectKith-5.jpg'),
                     title: 'Minimal Kitchan',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Kitchan"],
-                    img: require('../../assets/img/projectKith-6.jpg'),
+                    img: require('../assets/img/projectKith-6.jpg'),
                     title: 'Modern Kitchan',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Kitchan"],
-                    img: require('../../assets/img/projectKith-7.jpg'),
+                    img: require('../assets/img/projectKith-7.jpg'),
                     title: 'System Table',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Kitchan"],
-                    img: require('../../assets/img/projectKith-8.jpg'),
+                    img: require('../assets/img/projectKith-8.jpg'),
                     title: 'Modern Kitchan',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Living Area"],
-                    img: require('../../assets/img/projectLiv-1.jpg'),
+                    img: require('../assets/img/projectLiv-1.jpg'),
                     title: 'Minimal Living Area',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Living Area"],
-                    img: require('../../assets/img/projectLiv-2.jpg'),
+                    img: require('../assets/img/projectLiv-2.jpg'),
                     title: 'Classic Minimal Living Area',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Living Area"],
-                    img: require('../../assets/img/projectLiv-3.jpg'),
+                    img: require('../assets/img/projectLiv-3.jpg'),
                     title: 'Minimal Living Area table',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Living Area"],
-                    img: require('../../assets/img/projectLiv-4.jpg'),
+                    img: require('../assets/img/projectLiv-4.jpg'),
                     title: 'Modern Living Area',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Living Area"],
-                    img: require('../../assets/img/projectLiv-5.jpg'),
+                    img: require('../assets/img/projectLiv-5.jpg'),
                     title: 'Minimal Living Area',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Living Area"],
-                    img: require('../../assets/img/projectLiv-6.jpg'),
+                    img: require('../assets/img/projectLiv-6.jpg'),
                     title: 'Modern Living Area',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Living Area"],
-                    img: require('../../assets/img/projectLiv-7.jpg'),
+                    img: require('../assets/img/projectLiv-7.jpg'),
                     title: 'System Table',
                     text: 'Decor / Artchitecture',
 
                 },
                 {
                     name: ["Living Area"],
-                    img: require('../../assets/img/projectLiv-8.jpg'),
+                    img: require('../assets/img/projectLiv-8.jpg'),
                     title: 'Modern Living Area',
                     text: 'Decor / Artchitecture',
 

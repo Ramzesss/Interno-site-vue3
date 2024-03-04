@@ -1,5 +1,8 @@
 <template>
     <Header />
+    <div class="tags__top-image">
+        <!-- <img src="../assets/img/blog-details-top.jpg"> -->
+    </div>
     <div class="tags__body center">
         <div class="tags__item" v-for="detail in filteredDetails" :key="detail.id">
             <h2 class="tags__name">Let’s Get Solution for Building Construction Work</h2>
@@ -11,7 +14,7 @@
             <p class="tags__text">
                 {{ detail.description }}
             </p>
-            <img src="../../assets/img/Quotes-tag.png" alt="" class="tags__body-img">
+            <img src="../assets/img/Quotes-tag.png" alt="" class="tags__body-img">
             <h2 class="tags__name-bottom">Design sprints are great</h2>
             <p class="tags__text-bottom">Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
                 turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem
@@ -78,50 +81,50 @@ export default {
             details: [
                 {
                     name: ['Kitchen'],
-                    imgOne: require('../../assets/img/kitchen-1.png'),
+                    imgOne: require('../assets/img/kitchen-1.png'),
                     description: 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour, or randomised words which dont look even slightly believable. Embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.',
                     date: "26 December,2022",
-                    imgTwo: require('../../assets/img/kitchen-2.png'),
+                    imgTwo: require('../assets/img/kitchen-2.png'),
                     descriptionTwo: 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
                 },
                 {
                     name: ["Kitchen Planning"],
-                    imgOne: require('../../assets/img/kitchenpl-1.jpg'),
+                    imgOne: require('../assets/img/kitchenpl-1.jpg'),
                     description: 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available.',
                     date: "16 December,2023",
-                    imgTwo: require('../../assets/img/kitchenpl-2.jpg'),
+                    imgTwo: require('../assets/img/kitchenpl-2.jpg'),
                     descriptionTwo: 'Lorem ipsum dolor sit amet',
                 },
                 {
                     name: ["Bedroom"],
-                    imgOne: require('../../assets/img/bed-1.jpg'),
+                    imgOne: require('../assets/img/bed-1.jpg'),
                     description: 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injecthumour.',
                     date: "12 July,2023",
-                    imgTwo: require('../../assets/img/bed-2.jpg'),
+                    imgTwo: require('../assets/img/bed-2.jpg'),
                     descriptionTwo: 'Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
                 },
                 {
                     name: ["BedroomTwo"],
-                    imgOne: require('../../assets/img/bed-3.jpg'),
+                    imgOne: require('../assets/img/bed-3.jpg'),
                     description: 'Lorem ipsum dolor sit amet, adipiscing.',
                     date: "13 September,2021",
-                    imgTwo: require('../../assets/img/bed-4.jpg'),
+                    imgTwo: require('../assets/img/bed-4.jpg'),
                     descriptionTwo: 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
                 },
                 {
                     name: ["Architecture"],
-                    imgOne: require('../../assets/img/archi-1.jpg'),
+                    imgOne: require('../assets/img/archi-1.jpg'),
                     description: 'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
                     date: "11 June,2023",
-                    imgTwo: require('../../assets/img/archi-2.jpg'),
+                    imgTwo: require('../assets/img/archi-2.jpg'),
                     descriptionTwo: 'Lorem ipsum dolor sit amet, adipiscing Aliquam.',
                 },
                 {
                     name: ["Building"],
-                    imgOne: require('../../assets/img/build-1.jpg'),
+                    imgOne: require('../assets/img/build-1.jpg'),
                     description: 'Aliquam eu sem vitae turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.',
                     date: "12 December,2022",
-                    imgTwo: require('../../assets/img/build-2.jpg'),
+                    imgTwo: require('../assets/img/build-2.jpg'),
                     descriptionTwo: 'Contrary to popular belief.There are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
                 },
             ]

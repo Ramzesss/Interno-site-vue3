@@ -8,12 +8,11 @@
 </template>
 
 <script>
-
-// import Home from './components/pages/Home.vue'
-// import Blog from './components/pages/Blog.vue'
-// import BlogDetails from './components/pages/BlogDetails.vue';
-// import Project from './components/pages/Project.vue'
-import ProjectDetails from './components/pages/ProjectDetails.vue'
+// import Home from '@/pages/Home.vue'
+// import Blog from '@/pages/Blog.vue'
+// import BlogDetails from '@/pages/BlogDetails.vue';
+// import Project from '@/pages/Project.vue'
+import ProjectDetails from '@/pages/ProjectDetails.vue'
 
 export default {
   name: 'App',

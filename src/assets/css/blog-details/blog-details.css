@@ -1,3 +1,10 @@
+.tags__top-image {
+    background-image: url(../../img/blog-details-top.jpg);
+    height: 351px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .tags__body {
     display: flex;
     margin-top: 200px;
