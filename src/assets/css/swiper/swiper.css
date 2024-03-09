@@ -2,22 +2,12 @@
 
 
 
-/* .swiper {
-    
-} */
-
-.swiper-slide {
-    overflow: hidden;
-}
-
-/* .swiper-zoom-container {
-    
-} */
+.mySwiper {
+    width: 1200px;
+    height: 799px;
+} 
 
 .swiper-img {
-    width:  1200px;
-    /* height: 799px; */
-    
-    
+    max-width: 100%;
+    height: 799px;
 }
-
