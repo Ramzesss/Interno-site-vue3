@@ -7,12 +7,12 @@
                     Be Unique</h2>
                 <p class="top__text">There are many variations of the passages of lorem Ipsum fromavailable, majority.
                 </p>
-                <a class="top__link" href="#">Get Started
+                <router-link to="/Project" class="top__link">Get Started
                     <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.43542L14.7232 8.29857M9.61818 1.91138L16.1412 8.43436L9.48677 15.0887"
                             stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round" />
                     </svg>
-                </a>
+                </router-link>
             </div>
 
         </div>
@@ -28,13 +28,13 @@
                             <h3 class="columns__name">Modern Kitchan</h3>
                             <p class="columns__text">Decor / Artchitecture</p>
                         </div>
-                        <a class="columns__link" href="#">
+                        <router-link to="/ProjectDetails" class="columns__link">
                             <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
                                 <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </router-link>
                     </div>
                 </div>
                 <div class="columns__items">
@@ -44,13 +44,13 @@
                             <h3 class="columns__name">Modern Kitchan</h3>
                             <p class="columns__text">Decor / Artchitecture</p>
                         </div>
-                        <a class="columns__link" href="#">
+                        <router-link to="/ProjectDetails" class="columns__link">
                             <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
                                 <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </router-link>
                     </div>
 
 
@@ -62,13 +62,13 @@
                             <h3 class="columns__name">Modern Kitchan</h3>
                             <p class="columns__text">Decor / Artchitecture</p>
                         </div>
-                        <a class="columns__link" href="#">
+                        <router-link to="/ProjectDetails" class="columns__link">
                             <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
                                 <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </router-link>
                     </div>
 
 
@@ -80,13 +80,13 @@
                             <h3 class="columns__name">Modern Kitchan</h3>
                             <p class="columns__text">Decor / Artchitecture</p>
                         </div>
-                        <a class="columns__link" href="#">
+                        <router-link to="/ProjectDetails" class="columns__link">
                             <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
                                 <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </router-link>
                     </div>
 
 
@@ -142,13 +142,13 @@
                     </div>
                     <div class="col__item-link">
                         <p class="col__text">26 December,2022 </p>
-                        <a href="#">
+                        <router-link to="/BlogDetails">
                             <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
                                 <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </router-link>
                     </div>
                 </div>
                 <div class="bottom__col">
@@ -163,13 +163,13 @@
                     </div>
                     <div class="col__item-link">
                         <p class="col__text">22 December,2022 </p>
-                        <a href="#">
+                        <router-link to="/BlogDetails">
                             <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
                                 <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </router-link>
                     </div>
                 </div>
                 <div class="bottom__col">
@@ -184,13 +184,13 @@
                     </div>
                     <div class="col__item-link">
                         <p class="col__text">25 December,2022</p>
-                        <a href="#">
+                        <router-link to="/BlogDetails">
                             <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
                                 <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2"
                                     stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
-                        </a>
+                        </router-link>
                     </div>
                 </div>
             </div>
