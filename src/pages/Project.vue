@@ -25,7 +25,7 @@
                         <p class="project__body-text">{{ detail.text }}</p>
                     </div>
                     <div class="project__body-link">
-                        <a href="#">
+                        <router-link to="/ProjectDetails">
                             <svg width="70.000000" height="70.000000" viewBox="0 0 70 70" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <desc>
@@ -38,7 +38,7 @@
                                     stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round" />
                             </svg>
 
-                        </a>
+                        </router-link>
                     </div>
                 </div>
                 <a  class="project__body-star">

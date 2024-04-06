@@ -5,9 +5,9 @@
         <div class="blog__top-title ">
             <h2 class="blog__top-name">Articles & News</h2>
             <div class="blog__top-link">
-                <a class="blog__top-btn" href="index.html">Home</a>
+                <router-link to="/" class="blog__top-btn" >Home</router-link>
                 <p class="blog__top-slash">/</p>
-                <a class="blog__top-btn" href="blog.html">Blog</a>
+                <router-link to="/Blog" class="blog__top-btn">Blog</router-link>
             </div>
         </div>
 
@@ -25,13 +25,13 @@
                     classica.</p>
                 <div class="blog__body-date">
                     <p>26 December,2022</p>
-                    <a href="blog-details.html">
+                    <router-link to="/BlogDetails">
                         <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="26" cy="26.5" r="26" fill="#F4F0EC" />
                             <path d="M23.771 33.1855L29.7139 26.4998L23.771 19.8141" stroke="#292F36" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                    </a>
+                    </router-link>
                 </div>
             </div>
 
@@ -53,13 +53,13 @@
                 </div>
                 <div class="col__item-link">
                     <p class="col__text">{{ item.data }}</p>
-                    <a href="blog-details.html">
+                    <router-link to="/BlogDetails">
                         <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
                             <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                    </a>
+                    </router-link>
                 </div>
             </div>
         </div>

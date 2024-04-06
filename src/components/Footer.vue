@@ -3,13 +3,13 @@
         <div class="footer__columns">
             <div class="footer__columns-info">
                 <div class="footer__icon-home">
-                    <a href="index.html">
+                    <router-link to="/">
                         <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M0 34.0003H13.4588V24.499C13.4588 22.4853 15.0898 20.8543 17.1035 20.8543C19.1172 20.8543 20.7482 22.4853 20.7482 24.499V34.0003H33.9975V0C15.2211 0 0 15.2211 0 34.0003Z"
                                 fill="#CDA274" />
                         </svg>
-                    </a>
+                    </router-link>
                     <h2 class="footer__name">Interno</h2>
                 </div>
                 <p class="footer__text">It is a long established fact that a reader will be distracted lookings.</p>
@@ -33,9 +33,9 @@
             <div class="footer__columns-pages">
                 <h3 class="footer__pages-name">Pages</h3>
                 <div class="footer__pages-link">
-                    <a class="pages__link" href="index.html">Home</a>
-                    <a class="pages__link" href="#">Project</a>
-                    <a class="pages__link" href="blog.html">Blog</a>
+                    <router-link to="/" class="pages__link">Home</router-link>
+                    <router-link to="/Project" class="pages__link">Project</router-link>
+                    <router-link to="/Blog" class="pages__link">Blog</router-link>
                 </div>
 
             </div>

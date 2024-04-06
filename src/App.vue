@@ -3,7 +3,8 @@
   <!-- <Blog />  -->
   <!-- <BlogDetails /> -->
   <!-- <Project/> -->
-  <ProjectDetails />
+  <!-- <ProjectDetails /> -->
+    <router-view></router-view>
 
 </template>
 
@@ -12,7 +13,7 @@
 // import Blog from '@/pages/Blog.vue'
 // import BlogDetails from '@/pages/BlogDetails.vue';
 // import Project from '@/pages/Project.vue'
-import ProjectDetails from '@/pages/ProjectDetails.vue'
+// import ProjectDetails from '@/pages/ProjectDetails.vue'
 
 export default {
   name: 'App',
@@ -21,7 +22,7 @@ export default {
     // Blog,
     // BlogDetails,
     // Project,
-    ProjectDetails,
+    // ProjectDetails,
 
 },
 
