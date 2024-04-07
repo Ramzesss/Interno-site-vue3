@@ -4,7 +4,8 @@
   <!-- <BlogDetails /> -->
   <!-- <Project/> -->
   <!-- <ProjectDetails /> -->
-    <router-view></router-view>
+    <!-- <router-view></router-view> -->
+    <NotFound />
 
 </template>
 
@@ -14,6 +15,8 @@
 // import BlogDetails from '@/pages/BlogDetails.vue';
 // import Project from '@/pages/Project.vue'
 // import ProjectDetails from '@/pages/ProjectDetails.vue'
+import NotFound from '@/pages/NotFound.vue'
+
 
 export default {
   name: 'App',
@@ -23,7 +26,7 @@ export default {
     // BlogDetails,
     // Project,
     // ProjectDetails,
-
+    NotFound
 },
 
 }

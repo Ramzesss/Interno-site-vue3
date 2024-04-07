@@ -1,0 +1,60 @@
+
+
+.notfound__items {
+    display: flex;
+    gap: 81px;
+}
+
+.notfound__info {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+
+.notfound__title {
+    color: rgb(205, 162, 116);
+    font-family: "DM Serif Display";
+    font-size: 250px;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.notfound__subtitle {
+    color: rgb(41, 47, 54);
+    font-family: "DM Serif Display";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1%;
+    text-align: left;
+    width: 569px;
+}
+
+.notfound__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-align: center;
+    padding: 26px 54px 26px 54px;
+    text-decoration: none;
+    border-radius: 18px;
+    box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+    background: rgb(41, 47, 54);
+    width: 253px;
+}
+
+
+.notfound__image > img {
+    width: 913px;
+    height: 1042px;
+    border-radius: 0px 0px 0px 353px;
+}
