@@ -4,9 +4,9 @@
         <div class="project__top-title">
             <h2 class="project__top-name">Our Project</h2>
             <div class="project__top-link">
-                <a class="project__top-btn" href="index.html">Home</a>
+                <router-link to="/" class="project__top-btn">Home</router-link>
                 <p class="project__top-slash">/</p>
-                <a class="project__top-btn" href="blog.html">Project</a>
+                <router-link to="/Project" class="project__top-btn">Project</router-link>
             </div>
         </div>
     </div>

@@ -4,7 +4,7 @@ import Blog from "@/pages/Blog.vue";
 import BlogDetails from "@/pages/BlogDetails.vue";
 import Project from "@/pages/Project.vue";
 import ProjectDetails from "@/pages/ProjectDetails.vue";
-
+import NotFound from "@/pages/NotFound.vue";
 
 const routes = [
     {
@@ -27,6 +27,10 @@ const routes = [
         path: "/ProjectDetails",
         component: ProjectDetails
     },
+    {
+        path: "/:CatchAll(.*)",
+        component: NotFound
+    }
 
 ];
 const router = createRouter({
